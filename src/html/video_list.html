@@ -1,0 +1,202 @@
+@@include('header.html')
+        <div class="site-content-contain">
+            <div id="content" class="site-content">
+                <header class="entry-header">
+                    <h2 class="entry-title">광고</h2>
+                </header>
+
+                <!-- 컨텐츠 -->
+                <div class="sub_wrap">
+                    <div class="sub_bg type1"></div>
+                    <div class="max_container">
+                        <div class="sub_title">
+                            <p class="txt">한독의 제품광고,홍보영상을 한눈에 볼 수 있습니다.</p>
+                            <div class="breadcrumb">
+                                <a class="home" href="#none">홈</a>
+                                <ul>
+                                    <li>
+                                        <div class="select_form">
+                                            <button type="button">기업</button>
+                                            <ul>
+                                                <li>
+                                                    <a href="#none">메뉴</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="select_form">
+                                            <button type="button">홍보</button>
+                                            <ul>
+                                                <li>
+                                                    <a href="#none">메뉴</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="select_form">
+                                            <button type="button">광고</button>
+                                            <ul>
+                                                <li>
+                                                    <a href="#none">메뉴</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub_content">
+
+                        <!-- 서브 컨텐츠 -->
+                        <div class="max_container">
+                            <div class="tab_menu type3">
+                                <!-- [D] type3 : 3단 배열 탭메뉴 -->
+                                <ul>
+                                    <li class="active">
+                                        <!-- [D] 현재 탭메뉴에 active 클래스 부여 -->
+                                        <a href="#none">TV CF</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">PR 영상</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">Print 광고</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="video_preview">
+                            <div class="max_container">
+                                <div class="preview">
+                                    <div class="cont video">
+                                        <div class="src">
+                                            <iframe src="https://www.youtube.com/embed/ULY5Y3yLpLI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="cont info">
+                                        <p class="tit">간때문이야</p>
+                                        <p class="txt">간때문이야~ 간때문이야~ 피곤한 간때문이야~</p>
+                                        <div class="show_wrap">
+                                            <a href="#none" class="show" onclick="open_modal('#modal_00')">동영상보기</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- modal_00 -->
+                                <div class="modal_wrap" id="modal_00">
+                                    <div class="modal video_view">
+                                        <div class="video_wrap">
+                                            <iframe src="https://www.youtube.com/embed/ULY5Y3yLpLI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video_txt">
+                                            <p class="tit">간때문이야</p>
+                                            <p class="txt">간때문이야~ 간때문이야~ 피곤한 간때문이야~</p>
+                                        </div>
+                                        <a href="#none" class="close">
+                                            <i>닫기</i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- //modal_00 -->
+
+                            </div>
+                        </div>
+                        <div class="max_container">
+                            <div class="video_list">
+                                <ul>
+                                    <li>
+                                        <a href="#none" onclick="open_modal('#modal_01')">
+                                            <div class="thumb_wrap">
+                                                <img src="../img/sample/videolist_01.png" alt="">
+                                            </div>
+                                            <p class="video_tit">
+                                                긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목
+                                            </p>
+                                            <span class="date">9999.99.99</span>
+                                        </a>
+
+                                        <!-- modal_01 -->
+                                        <div class="modal_wrap" id="modal_01">
+                                            <div class="modal video_view">
+                                                <div class="video_wrap">
+                                                    <iframe src="https://www.youtube.com/embed/Goxgot4xDDc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="video_txt">
+                                                    <p class="tit">쌀국수 뚝배기</p>
+                                                    <p class="txt">쌀국수 뚝배기</p>
+                                                </div>
+                                                <a href="#none" class="close">
+                                                    <i>닫기</i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- //modal_01 -->
+
+                                    </li>
+                                    <li>
+                                        <a href="#none" onclick="open_modal('#modal_02')">
+                                            <div class="thumb_wrap">
+                                                <img src="../img/sample/videolist_01.png" alt="">
+                                            </div>
+                                            <p class="video_tit">
+                                                한독의약박물관 생명갤러리 (LET`s GO with HBY)
+                                            </p>
+                                            <span class="date">9999.99.99</span>
+                                        </a>
+
+                                        <!-- modal_02 -->
+                                        <div class="modal_wrap" id="modal_02">
+                                            <div class="modal video_view">
+                                                <div class="video_wrap">
+                                                    <iframe src="https://www.youtube.com/embed/TS5yJYQjS5Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="video_txt">
+                                                    <p class="tit">긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목긴제목</p>
+                                                    <p class="txt">긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용긴내용</p>
+                                                </div>
+                                                <a href="#none" class="close">
+                                                    <i>닫기</i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- //modal_02 -->
+
+                                    </li>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="thumb_wrap">
+                                                <img src="../img/sample/videolist_01.png" alt="">
+                                            </div>
+                                            <p class="video_tit">
+                                                한독의약박물관 생명갤러리 (LET`s GO with HBY)
+                                            </p>
+                                            <span class="date">9999.99.99</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">
+                                            <div class="thumb_wrap">
+                                                <img src="../img/sample/videolist_01.png" alt="">
+                                            </div>
+                                            <p class="video_tit">
+                                                한독의약박물관 생명갤러리 (LET`s GO with HBY)
+                                            </p>
+                                            <span class="date">9999.99.99</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- //서브 컨텐츠 -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- //컨텐츠 -->
+
+        </div>
+        <!-- #content -->
+@@include('footer.html')
